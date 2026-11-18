@@ -2,7 +2,7 @@
 
 # EmbeddingGemma 2 — Complete Guide
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/fabriciocarraro/EmbeddingGemma-2-Complete-Guide/blob/main/EmbeddingGemma_2_Complete_Guide.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1U-qs9RqjAHjPM0xuQsRCTlAcHLbmCpMe?usp=sharing)
 
 **EmbeddingGemma 2** is Google DeepMind's open multimodal embedding model. It maps text (including code), images, audio, and video into the same 768-dimensional vector space, enabling cross-modal search through simple cosine similarity, with a model small enough (740M parameters) to run on your own machine.
 
@@ -47,7 +47,7 @@ Everything runs in a single Google Colab. No API key needed: the model is open (
 
 ## Getting Started
 
-1. Open the notebook in Google Colab using the badge [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/fabriciocarraro/EmbeddingGemma-2-Complete-Guide/blob/main/EmbeddingGemma_2_Complete_Guide.ipynb)
+1. Open the notebook in Google Colab using the badge [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1U-qs9RqjAHjPM0xuQsRCTlAcHLbmCpMe?usp=sharing)
 2. Choose a GPU runtime: *Runtime → Change runtime type → T4 GPU*
 3. Run the cells and explore
 
