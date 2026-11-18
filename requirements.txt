@@ -1,0 +1,27 @@
+# Local setup for EmbeddingGemma_2_Complete_Guide.ipynb (Python 3.12+).
+# In Google Colab you don't need this file: the first code cell installs what's missing.
+#
+# For GPU, install the CUDA build of PyTorch first, following https://pytorch.org/get-started/locally/
+# e.g.: pip install torch torchvision --index-url https://download.pytorch.org/whl/cu130
+#
+# Versions in the comments are the ones the notebook was executed with (Windows 11, RTX 3050 Laptop 4 GB).
+
+torch                          # tested 2.14.1+cu130
+torchvision                    # tested 0.29.1+cu130
+transformers>=5.22.0           # tested 5.22.0 (needs the embedding_gemma2 architecture)
+sentence-transformers>=6.1.0   # tested 6.2.0 (model card requirement: >=6.1.0)
+faiss-cpu                      # tested 1.15.1
+numpy                          # tested 2.5.4
+pandas                         # tested 3.1.0
+jinja2                         # tested 3.1.6 (pandas styled tables)
+scikit-learn                   # tested 1.9.1
+matplotlib                     # tested 3.11.2
+datasets                       # tested 5.1.0
+pillow                         # tested 13.0.0
+requests                       # tested 2.34.2
+librosa                        # tested 1.0.0 (audio decoding + resampling to 16 kHz)
+soundfile                      # tested 0.14.0
+av                             # tested 19.0.2 (PyAV: video decoding, ships its own FFmpeg)
+pymupdf                        # tested 2.0 (PDF pages -> images / text)
+tensorboard                    # tested 2.21.0 (Embedding Projector)
+ipykernel                      # tested 7.4.0
