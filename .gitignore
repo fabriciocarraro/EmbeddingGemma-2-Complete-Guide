@@ -1,8 +1,0 @@
-# Files the notebook writes when it runs
-embeddings/
-similarity_results.png
-
-# Python / Jupyter
-.venv/
-__pycache__/
-.ipynb_checkpoints/
