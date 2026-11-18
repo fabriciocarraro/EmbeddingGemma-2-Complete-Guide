@@ -37,8 +37,6 @@ Everything runs in a single Google Colab. No API key needed: the model is open (
 
 **🎬 Video Embeddings** — Text-to-video, audio-to-video, and video-to-video similarity search, with a look at the exact frames the model sees.
 
-**📄 PDF file Embeddings** — PDFs aren't a native input of EmbeddingGemma 2, so we render their pages as images: text-to-PDF search, audio-to-PDF cross-modal search, and PDF-to-PDF comparison.
-
 **📐 Dimensionality** — Testing how Matryoshka Representation Learning (MRL) lets you reduce embedding dimensions from 768 down to 128.
 
 **🪶 Selective loading** — Loading only the text part of the model (270M parameters) when you don't need images or audio.
@@ -64,7 +62,6 @@ The notebook installs everything it needs automatically. Key libraries:
 | `faiss-cpu` | Fast similarity search (FAISS) |
 | `librosa` | Decoding audio and resampling it to 16 kHz |
 | `av` | Decoding video frames |
-| `pymupdf` | Rendering PDF pages as images |
 | `scikit-learn` | Cosine similarity |
 | `tensorboard` | Embedding visualization (Projector) |
 | `datasets` | Hugging Face dataset loading |
